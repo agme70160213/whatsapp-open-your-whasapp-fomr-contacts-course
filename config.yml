@@ -1,0 +1,16 @@
+title: WhatsApp  open your whasapp fomr contacts
+description: How to open other what's apps from your contact
+template:
+  repo: whatsapp-open-your-whasapp-fomr-contacts-template
+  name: whatsapp-open-your-whasapp-fomr-contacts
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
